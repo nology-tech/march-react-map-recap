@@ -1,0 +1,29 @@
+.card {
+  min-height: 150px;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__top {
+    text-align: right;
+  }
+
+  &__bottom {
+    text-align: right;
+    transform: rotate(180deg);
+  }
+
+  &--red {
+    border: 2px solid red;
+    color: red;
+  }
+
+  &--black {
+    border: 2px solid black;
+    color: black;
+  }
+}
